@@ -1,0 +1,38 @@
+.body {
+  background-color: #2A2C2F;
+}
+
+.page {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  font-family: 'Inter';
+  border: 1px solid red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-links {
+  display: flex;
+  align-items: center;
+}
+
+.header__lang-link {
+  margin-left: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
