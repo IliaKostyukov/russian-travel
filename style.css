@@ -1,16 +1,21 @@
 .body {
   background-color: #2A2C2F;
+  color: #fff;
 }
 
 .page {
   width: 1280px;
   margin: 0 auto;
   padding: 0 48px;
+  box-sizing: border-box;
   font-family: 'Inter';
   border: 1px solid red;
 }
 
+/* Header */
+
 .header {
+  margin-top: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -21,8 +26,9 @@
 }
 
 .header__lang-links {
+  margin-bottom: 5px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .header__lang-link {
@@ -35,4 +41,78 @@
 
 .header__lang-link:hover {
   text-decoration: underline;
+}
+
+/* Lead section */
+
+.lead {
+  margin: 0 100px;
+}
+
+.lead__title {
+  width: 720px;
+  margin: 56px auto 32px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  width: 640px;
+  margin: 0 auto 64px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 984px;
+  min-height: 615px;
+  margin: 0 auto;
+  background-image: url('images/__image.png');
+}
+
+.lead__caption {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Intro section */
+
+.intro {
+  margin: 0 100px;
+}
+
+.intro__title {
+  margin: 0;
+  margin-top: 92px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__text {
+  width: 690px;
+  margin: 0;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.intro__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 33px;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-item_bold {
+  font-weight: 700;
 }
