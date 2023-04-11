@@ -4,12 +4,11 @@
 }
 
 .page {
-  width: 1280px;
   margin: 0 auto;
   padding: 0 48px;
   box-sizing: border-box;
   font-family: 'Inter';
-  border: 1px solid red;
+  overflow: hidden;
 }
 
 /* Header */
@@ -50,7 +49,7 @@
 }
 
 .lead__title {
-  width: 720px;
+  width: 80%;
   margin: 56px auto 32px;
   font-weight: 900;
   font-size: 96px;
@@ -59,7 +58,7 @@
 }
 
 .lead__subtitle {
-  width: 640px;
+  width: 60%;
   margin: 0 auto 64px;
   font-size: 30px;
   line-height: 36px;
@@ -67,10 +66,11 @@
 }
 
 .lead__image {
-  width: 984px;
-  min-height: 615px;
+  width: 100%;
   margin: 0 auto;
-  background-image: url('images/__image.png');
+  background-image: url('images/lead-polka.jpg');
+  background-size: cover;
+  object-fit: fill;
 }
 
 .lead__caption {
@@ -89,6 +89,7 @@
 }
 
 .intro__title {
+  width: 70%;
   margin: 0;
   margin-top: 92px;
   font-weight: 900;
@@ -97,7 +98,7 @@
 }
 
 .intro__text {
-  width: 690px;
+  width: 70%;
   margin: 0;
   margin-top: 40px;
   font-size: 16px;
@@ -115,4 +116,117 @@
 
 .intro__list-item_bold {
   font-weight: 700;
+}
+
+/* Photo-grid */
+
+.photo-grid {
+  margin: 92px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  gap: 15px;
+}
+
+.photo-grid__item {
+  width: 100%;
+}
+
+/* Places */
+
+.places {
+  margin: 0 100px;
+}
+
+.place {
+  margin-bottom: 80px;
+}
+
+.place__title {
+  width: 45%;
+  margin: 0;
+  margin-right: 4%;
+  display: inline-block;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__website {
+  display: inline-block;
+}
+
+.place__url-heading {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #AAA;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+
+.place__link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.place__wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.place__image {
+  width: 45%;
+  height: 100%;
+  margin-right: 4%;
+}
+
+.place__paragraph {
+  max-width: 480px;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+/* Media */
+
+@media screen and (max-width: 1280px) {
+  .page {
+    width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 1024px;
+  }
+
+  .lead {
+    margin: 0;
+  }
+
+  .lead__title {
+    width: 70%;
+  }
+
+  .lead__subtitle {
+    width: 65%;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .places {
+    margin: 0;
+  }
+
 }
