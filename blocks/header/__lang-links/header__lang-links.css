@@ -1,0 +1,5 @@
+.header__lang-links {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+}
