@@ -9,4 +9,4 @@
 * Для разметки блоков используется Grid;
 * Применена адаптивная верстка под разные типы устройств;
 ## Ссылка на опубликованый проект через Github Pages:
-[https://iliakostyukov.github.io/russian-travel/] (https://iliakostyukov.github.io/russian-travel/)
+https://iliakostyukov.github.io/russian-travel/
