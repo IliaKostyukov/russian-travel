@@ -1,9 +1,8 @@
 .footer__link {
-  margin-right: 18px;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  line-height: 1.125;
+  line-height: 1.1;
   transition: all .3s linear;
 }
 
@@ -13,7 +12,6 @@
 
 @media screen and (max-width: 600px) {
   .footer__link {
-    margin-bottom: 32px;
     font-size: 24px;
     line-height: 1;
   }
