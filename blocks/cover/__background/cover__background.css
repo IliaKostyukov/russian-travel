@@ -10,7 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: fill;  width: 100%;
+  object-fit: fill;
+  width: 100%;
   z-index: 1;
   text-align: center;
   text-decoration: none;
